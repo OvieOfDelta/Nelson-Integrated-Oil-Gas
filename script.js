@@ -188,7 +188,7 @@
                     success.style.display = 'block';
                     success.textContent   = result.message === 'already_subscribed'
                         ? "✅ You're already subscribed — we'll keep you posted!"
-                        : "✅ You're in! Welcome to the Nelson Energy Group community.";
+                        : "✅ You're in! Welcome to the Nelson Integrated Oil & Gas community.";
 
                     document.getElementById('newsletterForm').reset();
                     localStorage.setItem('newsletterSubscribed', 'true');
